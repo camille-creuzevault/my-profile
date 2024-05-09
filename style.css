@@ -1,0 +1,104 @@
+/* Colors and fonts */
+body {
+	background: #fae1dd ;
+	color : #edafb8 ;
+	font-family: "Playfair Display", serif;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1, h2,h3 {
+	font-family: "Lato", sans-serif;
+}
+
+h1{
+	color : #f4acb7 ;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+h2{
+	color : #EA9E8D ;
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 400;
+}
+
+a{
+	font-family: "Lato", sans-serif;
+	text-decoration: none;
+	color : #b5838d ;
+	font-weight: 600;
+	font-size: 16px;
+	transition : color 0.3 ease ; 
+}
+
+a:hover {
+	color : #FFB3C6;
+}
+
+/* Custom design with class (99% of your design) */
+.container{
+	width: 700px;
+	margin: 70px auto;
+}
+
+@media (max-width : 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width : 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: #F7F9FC;
+	padding : 40px;
+	box-shadow: 0px 10px 30 px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color:#b5838d;
+	color : white;
+	padding : 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color:#FFB3C6;
+	color : white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left : 0px ; 
+}
+
+.list-inline li{
+	display: inline;
+	padding : 10px ; 
+}
+
+.list-inline i {
+	font-size : 50px;
+}
+
+/* Design adjustments using id (1% of your design) */
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
